@@ -1,0 +1,11 @@
+.DS_Store
+.terraform
+terraform_provider.tf
+*.tfstate*
+*.tfvars
+*.zip
+<<<<<<< HEAD
+*.pyc
+=======
+__pycache__
+>>>>>>> master
