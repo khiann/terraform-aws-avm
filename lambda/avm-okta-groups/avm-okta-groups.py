@@ -6,7 +6,7 @@ import avm_common
 import requests
 from http import HTTPStatus
 
-okta_config = avm_common.get_secret("okta_token")
+okta_config = avm_common.get_secret("okta")
 url = okta_config["url"]
 
 # Checks if Group already exists
